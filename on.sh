@@ -1,3 +1,4 @@
+
 #!/bin/bash
 while true ; do
    killall tmux
@@ -16,4 +17,5 @@ rm -rf ~/.telegram-cli/$entry/data/thumb/*
     tmux new-session -d -s $entry "./$entr"
   done
   echo 'On!'
+sleep 1080
 done
